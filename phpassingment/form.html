@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>forms</title>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='sys.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name : </td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <td>Email : </td>
+            <td><input type ="email" name = "email" required></td>
+        </tr>
+        <tr>
+            <td>Phone number</td>
+           <td><input type ="text" name = "phone"></td> 
+        </tr>
+        <tr>
+            <td>Gender : </td>
+            <td><input type = "radio" value = "male" name="gen" checked> Male <input type = "radio" value = "female" name = "gen"> Female </td>
+        </tr>
+        
+        <tr>
+            <td>Message : </td>
+            <td>
+                <textarea name="message" rows = "5" cols = "30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+</body>
+</html>
